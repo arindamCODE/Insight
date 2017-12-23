@@ -1,0 +1,11 @@
+<!-- Dialog box to confim the delete operation -->
+<div class="deleteDialog">
+    <mat-card-content>
+        <!-- Message for the Confirmation -->
+        <h4>Are you sure you want to delete ?</h4>
+    </mat-card-content>
+    <!-- Button to confirm the delete operation -->
+    <button mat-raised-button color="warn" (click)="get()" (click)="onNoClick()">Confirm</button>
+    <!-- Button to cancel the delete operation and also close the Dialog -->
+    <button mat-raised-button color="primary" (click)="onNoClick()">Cancel</button  >
+</div>

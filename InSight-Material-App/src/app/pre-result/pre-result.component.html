@@ -1,0 +1,42 @@
+<!-- Component to show all the contents that have been uploaded by the User -->
+<div class="container">
+    <!-- Card to show the collection of all the Contents -->
+    <div class="masonry">
+        <!-- Visiting every Content of the collection and also showing them individually -->
+        <ul *ngFor="let con of content3 | paginate: { itemsPerPage: 10, currentPage: p }">
+            <div class="item" *ngIf="con.isDelete==false">
+                <mat-card #card class="container" id="favouritecards">
+                    <mat-card-header>
+                        <mat-card-title id="metatags">
+                            {{con.metaTags}}
+                        </mat-card-title>
+                        <p>{{con.isPrivate}}</p>
+                    </mat-card-header>
+                    <a href="" routerLink="/dashboard/view" (click)="view(con)" id="contentdisplay">
+                        <mat-card-content [innerHTML]="addDots(con)">
+                        </mat-card-content>
+
+                    </a>
+                    <mat-card-actions id="actions">
+                        <span id="date">Created on: {{ con.createdOn | date:'dd/MM/yy'}}</span>
+                        <!-- Button that takes you to the desired component to edit the conten further -->
+                        <span matTooltip="Edit"><button mat-button id="editbtn" (click)="edit(con)" routerLink='/dashboard/ed'><mat-icon id="editicon">edit</mat-icon></button></span>
+                        <!-- Button that opens the Dialog button for the confirmation of the Delete operation -->
+                        <span matTooltip="Delete"><button mat-button id="deletebtn" (click)="openDialog()" (click)="preDelete(con)"><mat-icon id="deleteicon">delete</mat-icon></button></span>
+                        <!-- Button that shows that the content is not added to the Favourites and lets add the contents to the Favourites by opening the corresponding dialog box -->
+                        <span matTooltip="Favourite"><button mat-button id="favbtn" *ngIf="con.isFavourites === true" (click)="openDialogRemoveFav()" (click)="change1(con)"><mat-icon id="favicon">favorite</mat-icon></button></span>
+                        <!-- Button that shows that the content is added to the Favourites and lets remove the contents from the Favourites by opening the corresponding dialog box -->
+                        <span matTooltip="Favourite"><button mat-button id="favborderbtn"*ngIf="con.isFavourites === false" (click)="openDialogAddFav()" (click)="change(con)"><i class="material-icons" id="favicon">favorite_border</i></button></span>
+
+                        <span matTooltip="Share"><button mat-button (click)="fetchIDs(con)" (click)="openDialogshare()" id="sharebtn"><mat-icon id="shareicon">share</mat-icon></button></span>
+                    </mat-card-actions>
+                </mat-card>
+            </div>
+
+        </ul>
+    </div>
+
+</div>
+<div class="pagination">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

@@ -1,0 +1,16 @@
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.Tests.deps.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.Tests.runtimeconfig.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.Tests.runtimeconfig.dev.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.Tests.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.Tests.pdb
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.pdb
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\bin\Debug\netcoreapp2.0\HandleContent.dll.config
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\obj\Debug\netcoreapp2.0\HandleContent.Tests.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\obj\Debug\netcoreapp2.0\HandleContent.Tests.AssemblyInfoInputs.cache
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\obj\Debug\netcoreapp2.0\HandleContent.Tests.AssemblyInfo.cs
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\obj\Debug\netcoreapp2.0\HandleContent.Tests.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent.Tests\obj\Debug\netcoreapp2.0\HandleContent.Tests.pdb

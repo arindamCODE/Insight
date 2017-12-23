@@ -1,0 +1,22 @@
+.scroll {
+    overflow-x: hidden;
+}
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+.mat-progress-spinner circle,
+.mat-spinner circle {
+    stroke: #212121;
+}
+
+.mat-progress-spinner circle,
+.mat-spinner circle {
+    stroke: #212121;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background-color: #212121;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border-color: #212121;
+}

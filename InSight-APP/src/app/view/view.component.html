@@ -1,0 +1,46 @@
+<div class="container">
+
+    <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <div class="panel-body">
+            <!-- <div [innerHTML]="con1.content"></div> -->
+            <article [innerHTML]="con1.content"></article>
+        </div>
+        <div class="panel-body" *ngIf="con1.isFavourites === false">
+            <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#MyModal1" (click)="change()">Add To Favourites</button> -->
+            <a><i class="glyphicon glyphicon-star-empty" data-toggle="modal" data-target="#MyModal1" (click)="change()"></i></a>
+        </div>
+        <div class="panel-body" *ngIf="con1.isFavourites === true">
+            <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#MyModal2" (click)="change1()">Remove From Favourites</button> -->
+            <a><i class="glyphicon glyphicon-star" data-toggle="modal" data-target="#MyModal2" (click)="change1()"></i></a>
+        </div>
+    </div>
+</div>
+
+<div id="MyModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">The Content has been successfully added to The Favorites</div>
+            <div class="modal-footer">
+                <button class="btn btn-primary btn-lg" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="MyModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">The Content has been successfully removed from The Favorites</div>
+            <div class="modal-footer">
+                <button class="btn btn-primary btn-lg" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>

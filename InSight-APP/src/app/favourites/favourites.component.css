@@ -1,0 +1,55 @@
+.w3-panel {
+    padding: 15px;
+    background-color: #fafafa;
+    width: 1000px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 8px -6px rgba(0, 0, 0, .2);
+}
+
+#card1 {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+@media (min-width:300px) {
+    .w3-panel {
+        width: 200px;
+    }
+}
+
+@media (min-width:375px)and (max-width:425px) {
+    .w3-panel {
+        width: 270px;
+    }
+}
+
+@media (min-width:426px)and (max-width:768px) {
+    .w3-panel {
+        width: 600px;
+    }
+}
+
+@media (min-width:769px)and (max-width:1024px) {
+    .w3-panel {
+        width: 800px;
+    }
+}
+
+@media (min-width:1025px)and (max-width:1440px) {
+    .w3-panel {
+        width: 1200px;
+    }
+}
+
+@media (min-width:1441px)and (max-width:2560px) {
+    .w3-panel {
+        width: 1200px;
+    }
+}
+
+.glyphicon.glyphicon-star {
+    font-size: 35px;
+}

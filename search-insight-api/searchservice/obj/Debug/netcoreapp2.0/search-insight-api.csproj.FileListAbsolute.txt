@@ -1,0 +1,30 @@
+C:\Users\Administrator\Desktop\search-insight-api\bin\Debug\netcoreapp2.0\search-insight-api.deps.json
+C:\Users\Administrator\Desktop\search-insight-api\bin\Debug\netcoreapp2.0\search-insight-api.runtimeconfig.json
+C:\Users\Administrator\Desktop\search-insight-api\bin\Debug\netcoreapp2.0\search-insight-api.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\search-insight-api\bin\Debug\netcoreapp2.0\search-insight-api.dll
+C:\Users\Administrator\Desktop\search-insight-api\bin\Debug\netcoreapp2.0\search-insight-api.pdb
+C:\Users\Administrator\Desktop\search-insight-api\obj\Debug\netcoreapp2.0\search-insight-api.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\search-insight-api\obj\Debug\netcoreapp2.0\search-insight-api.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\search-insight-api\obj\Debug\netcoreapp2.0\search-insight-api.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\search-insight-api\obj\Debug\netcoreapp2.0\search-insight-api.dll
+C:\Users\Administrator\Desktop\search-insight-api\obj\Debug\netcoreapp2.0\search-insight-api.pdb
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\bin\Debug\netcoreapp2.0\search-insight-api.deps.json
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\bin\Debug\netcoreapp2.0\search-insight-api.runtimeconfig.json
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\bin\Debug\netcoreapp2.0\search-insight-api.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\bin\Debug\netcoreapp2.0\search-insight-api.dll
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\bin\Debug\netcoreapp2.0\search-insight-api.pdb
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\obj\Debug\netcoreapp2.0\search-insight-api.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\obj\Debug\netcoreapp2.0\search-insight-api.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\obj\Debug\netcoreapp2.0\search-insight-api.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\obj\Debug\netcoreapp2.0\search-insight-api.dll
+C:\Users\Administrator\Desktop\Insight\search-insight-api(till csv)\obj\Debug\netcoreapp2.0\search-insight-api.pdb
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\bin\Debug\netcoreapp2.0\search-insight-api.deps.json
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\bin\Debug\netcoreapp2.0\search-insight-api.runtimeconfig.json
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\bin\Debug\netcoreapp2.0\search-insight-api.runtimeconfig.dev.json
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\bin\Debug\netcoreapp2.0\search-insight-api.dll
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\bin\Debug\netcoreapp2.0\search-insight-api.pdb
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\obj\Debug\netcoreapp2.0\search-insight-api.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\obj\Debug\netcoreapp2.0\search-insight-api.AssemblyInfoInputs.cache
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\obj\Debug\netcoreapp2.0\search-insight-api.AssemblyInfo.cs
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\obj\Debug\netcoreapp2.0\search-insight-api.dll
+c:\Users\Administrator\Desktop\Insight\search-insight-api\searchservice\obj\Debug\netcoreapp2.0\search-insight-api.pdb

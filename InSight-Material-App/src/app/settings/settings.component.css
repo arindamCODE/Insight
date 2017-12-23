@@ -1,0 +1,217 @@
+.example-card{
+    width: 40%;
+    margin-left: 30%;
+    margin-top:1% ;
+    margin-bottom:1%;
+    padding-top: 30px;
+ }
+ /* #dp{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+ } */
+ .mat-form-field{
+    width: 70%;
+    margin-left: 75px;
+ }
+ .button-row{
+    float:right;
+ }
+ .profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+    margin-left: 32%;
+  
+    /* margin-right: 20%; */
+    
+ }
+ .profile-pic :hover {
+     cursor: pointer;
+ }
+
+ .photo{
+    width: 100px;
+    height: 100px;
+
+ }
+ .profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+ }
+ 
+ .profile-pic span {
+    display: inline-block;
+    padding-top: 45%;
+    
+ }
+
+.profile-pic span {
+    display: inline-block;
+    padding-top: 45%;
+    
+}
+.btn1{
+    float:right;
+}
+ @media  (min-width:500px) and (max-width:2560px) {
+    .profile-pic{
+      float: right;
+      margin-right: 10%;
+    }
+    h2{
+      padding-left: 12%;
+      padding-top: 7%;
+    }
+    .pswd{
+      padding-left: 12%;
+      
+    }
+    #uploadbox{
+      margin-right: 15%;
+      margin-top: 2%;
+    }
+    #d3{
+      margin-right: 18%;
+      margin-top: 2%;
+    }
+    #save-button{
+      margin-right: 50%;
+      margin-top: 2%;
+    }
+}
+
+
+#dp{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+  }
+  .mat-form-field{
+    width: 70%;
+    margin-left: 75px;
+  }
+  /* .profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+   float: right;
+   padding-right: 20%;
+  } */
+  .name{
+    padding-top: 10%;
+    margin-left:15%;
+    font-size: 30px;
+  }
+  .changepassword{
+    margin-left: 15%;
+    
+  }
+  .mat-card-subtitle, .mat-card-title{
+     margin-bottom: 0px;
+    
+  }
+  
+  change
+  .photo{
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  .profile-pic:hover {
+    /* background-color: rgba(0,0,0,.5); */
+    /* z-index: 10000; */
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+  }
+  
+  .profile-pic span {
+    display: inline-block;
+    padding-top: 45%;
+    
+  }
+  @media only screen and (max-width:500px) {
+    .example-card[_ngcontent-c12]{
+       
+        width:85%;
+        margin-left: 10px;
+        
+    }
+    #dp{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+     }
+     .mat-form-field[_ngcontent-c12]{
+         margin-left: 50px;
+     }
+     #uploadbox{
+       margin-right: 28%;
+       margin-bottom: 5%;
+     }
+     #save-button{
+      margin-left: 40%;
+      margin-bottom: 5%;
+     }
+     .name{
+       display: none;
+     }
+     .changepassword{
+       margin-left: 38%;
+      
+     }
+     .formfields{
+       margin-top: 10%;
+     }
+    
+  }
+  .example-card {
+    width: 40%;
+    margin-left: 30%;
+    margin-top:7% ;
+    margin-bottom:1%;
+    padding-top: 30px;
+  }
+  
+  .settingsuser{
+      margin-left: 50%;
+  }
+  
+  .settingschangepw{
+    margin-left: 50%;
+  
+  }
+  #uploadbox{
+    float: right;
+    }  
+  #save-button{
+    float: right;
+  }
+  #d3{
+    float: right;
+  }
+ 

@@ -1,0 +1,29 @@
+<!-- Component to show all the contents that have been marked Favourites by the User -->
+<div class="container">
+    <!-- Card to show the collection of all the Contents -->
+    <div class="masonry">
+        <!-- Visiting every Content of the collection and also showing them individually -->
+        <ul *ngFor="let con of content4 | paginate: { itemsPerPage: 10, currentPage: p }">
+            <div class="item">
+                <mat-card #card class="container" id="favouritecards">
+                    <mat-card-header>
+                        <mat-card-title id="metatags">
+                            {{con.metaTags}}
+                        </mat-card-title>
+                    </mat-card-header>
+                    <a href="" routerLink="/dashboard/view" (click)="view(con)" id="contentdisplay">
+                        <mat-card-content [innerHTML]="addDots(con)">
+                        </mat-card-content>
+                    </a>
+                    <mat-card-actions id="actions">
+                        <span id="date">Created on: {{ con.createdOn | date:'dd/MM/yy'}}</span>
+                        <span matTooltip="Favourite"><button mat-button id="favbtn" (click)="openDialogAddFav()" (click)="change1(con)"><mat-icon id="favicon">favorite</mat-icon></button></span>
+                    </mat-card-actions>
+                </mat-card>
+            </div>
+        </ul>
+    </div>
+</div>
+<div class="pagination">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

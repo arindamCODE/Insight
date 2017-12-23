@@ -1,0 +1,42 @@
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.deps.json
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.json
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.dev.json
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.dll
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.pdb
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfoInputs.cache
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfo.cs
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.dll
+c:\Users\Administrator\Desktop\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.pdb
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.deps.json
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.json
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.dev.json
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.dll
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.pdb
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfoInputs.cache
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfo.cs
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.dll
+c:\Users\Administrator\Desktop\Smart-Content-Editor\Editor-Backend\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.pdb
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.deps.json
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.json
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.dll
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.pdb
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.dll
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.pdb
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfoInputs.cache
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.AssemblyInfo.cs
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.dll
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\obj\Debug\netcoreapp2.0\HandleContent.pdb
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.dll.config
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.deps.json
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.json
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.runtimeconfig.dev.json
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.dll
+c:\Users\Administrator\Desktop\Insight Latest\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.pdb
+C:\Users\Administrator\Desktop\Insight\InSight-API\Editor-Api(QuillEditor)\HandleContent\HandleContent\bin\Debug\netcoreapp2.0\HandleContent.dll.config

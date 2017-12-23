@@ -1,0 +1,10 @@
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\bin\Debug\netcoreapp2.0\Editor-API(Favourites).deps.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\bin\Debug\netcoreapp2.0\Editor-API(Favourites).runtimeconfig.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\bin\Debug\netcoreapp2.0\Editor-API(Favourites).runtimeconfig.dev.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\bin\Debug\netcoreapp2.0\Editor-API(Favourites).dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\bin\Debug\netcoreapp2.0\Editor-API(Favourites).pdb
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\obj\Debug\netcoreapp2.0\Editor-API(Favourites).csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\obj\Debug\netcoreapp2.0\Editor-API(Favourites).AssemblyInfoInputs.cache
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\obj\Debug\netcoreapp2.0\Editor-API(Favourites).AssemblyInfo.cs
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\obj\Debug\netcoreapp2.0\Editor-API(Favourites).dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\Editor-API(Favourites)\obj\Debug\netcoreapp2.0\Editor-API(Favourites).pdb

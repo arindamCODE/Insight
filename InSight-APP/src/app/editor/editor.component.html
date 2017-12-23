@@ -1,0 +1,77 @@
+<!-- <body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <quill-editor [(ngModel)]="editorContent"></quill-editor>
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <h2>Description</h2>
+                        <input #Tag type="text" placeholder="Description" required>
+                        <button class="btn btn-info" (click)="save(editorContent, Tag.value)" routerLink="/dashboard/re1">Save</button>
+                    </div>
+
+                    
+                    <div class="col-md-9">
+                        <form enctype="multipart/form-data" method="post" name="fileinfo">
+                            <div class="fileUpload">
+                                <div class="row">
+                                    <div class="col-md-8">  
+                                        <input #fileInput  type="file" id="btnUpload" value="Upload Files" (change)="fileChange($event)" class="btn btn-info" multiple  />
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <input type="submit" id="btnSubmit" value="Upload File" class="btn btn-primary btn-large" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body> -->
+
+
+<body>
+    <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+
+        <div class="panel-body">
+            <quill-editor [(ngModel)]="editorContent"></quill-editor>
+        </div>
+
+        <div class="panel-body">
+            <input #Tag type="text" placeholder="Please provide some tags" required>
+        </div>
+
+        <!--<div class="panel-body">
+            <button class="btn btn-primary btn-lg" (click)="save(editorContent, Tag.value)" routerLink="/dashboard/re1">Save</button>
+        </div>-->
+
+        <div class="panel-body">
+            <!--only for uploading files-->
+            <form enctype="multipart/form-data" method="post" name="fileinfo">
+                <div class="fileUpload">
+
+                    <div class="OnlyUpload">
+                        <input #fileInput type="file" id="btnUpload" value="Upload Files" class="btn btn-info" multiple />
+                        <!--(change)="fileChange($event)" -->
+                    </div>
+
+                </div>
+                <!--end of formUpload-->
+            </form>
+        </div>
+
+        <div class="panel-body">
+            <!--Button for single upload functionality-->
+            <div class="MainUploader">
+                <input type="submit" id="btnMainSubmit" value="Upload Data" (click)="MainUploader(fileInput.files,editorContent,Tag.value)" class="btn btn-primary btn-large" routerLink="/dashboard/re1" />
+            </div>
+        </div>
+
+    </div>
+</body>

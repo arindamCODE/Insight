@@ -1,0 +1,140 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+</head>
+
+<body>
+    <mat-sidenav-container fullscreen>
+        <mat-sidenav #sidenav mode="over" class="leftsidenavBox">
+             <mat-toolbar id="sidenavmenu">Menu</mat-toolbar>
+                 <div class="leftsidenav">
+                      <div class="sidenavcontents">
+                        <li>
+                            <a [routerLink]="['/dashboard/edit']" _ngcontent-c1="" aria-label="Home" class=" docs-navbar docs-button mat-button" mat-button="" tabindex="0" aria-disabled="false" (click)="sidenav.close()">
+                            <span class="mat-button-wrapper">
+                            <mat-icon>file_upload</mat-icon>
+                            <span>Upload</span>
+                            </span>
+                            <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                            <div class="mat-button-focus-overlay"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a _ngcontent-c1="" aria-label="My Workflows" class="docs-navbar-hide-small docs-button mat-button" mat-button="" tabindex="0" aria-disabled="false" (click)="sidenav.close()">
+                            <span class="mat-button-wrapper">
+                            <mat-icon>local_offer</mat-icon>
+                            <span>Recent Searches</span>
+
+                            </span>
+                            <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                            <div class="mat-button-focus-overlay"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/dashboard/pre']" _ngcontent-c1="" aria-label="Reports" class="docs-navbar-hide-small docs-button mat-button" mat-button="" tabindex="0" aria-disabled="false" (click)="sidenav.close()">
+                            <span class="mat-button-wrapper">
+                            <mat-icon>library_books</mat-icon>
+                            <span>My Repository</span>
+                            </span>
+                            <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                            <div class="mat-button-focus-overlay"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/dashboard/favourites']" _ngcontent-c1="" aria-label="Reports" class="docs-navbar-hide-small docs-button mat-button" mat-button="" tabindex="0" aria-disabled="false" (click)="sidenav.close()">
+                            <span class="mat-button-wrapper">
+                    <mat-icon>star</mat-icon>
+                    <span>Favourites</span>
+                            </span>
+                            <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                            <div class="mat-button-focus-overlay"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/dashboard/settings']" _ngcontent-c1="" aria-label="Reports" class="docs-navbar-hide-small docs-button mat-button" mat-button="" tabindex="0" aria-disabled="false" (click)="sidenav.close()">
+                            <span class="mat-button-wrapper">
+            <mat-icon>settings</mat-icon>
+            <span>Settings</span>
+                            </span>
+                            <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                            <div class="mat-button-focus-overlay"></div>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        
+    </mat-sidenav>
+   <!-- <mat-sidenav #rightsidenav position="end" class="rightsidenavBox" openedChange="sideNavopened()">
+        <mat-toolbar color="primary">Notifications</mat-toolbar>
+        <div class="rightsidenav">
+        </mat-sidenav>
+
+
+
+        </div>
+    </mat-sidenav>-->
+   
+        <mat-toolbar *ngIf="true" id="header">
+            <span matTooltip="Menu">
+                 <button mat-icon-button type="button" mat-button (click)="sidenav.open()">
+                <mat-icon>menu</mat-icon>
+                 </button>
+             </span>
+
+
+            <span class="Product-name">Insight</span>
+            <span class="example-spacer"></span>
+            <app-searchbar></app-searchbar>
+            <span class="example-spacer"></span>
+
+            <img class="image" id="userdp" src="https://s3.ap-south-1.amazonaws.com/testinsight95/+ {{photoUrl}}" alt="Photo">
+
+            <span matTooltip="Profile">
+                <div *ngIf="currentUser">
+                <div id="one">{{currentUser.firstName}} </div>
+                </div>
+           </span>
+           
+       
+            
+    
+            <span matTooltip="Profile">
+        <div *ngIf="googleuser">
+            <div id="one">{{ googleuser.name }}</div>
+            
+        </div>
+    </span>
+
+            <span matTooltip="Logout">
+        <div *ngIf="currentUser">
+            
+            <button mat-icon-button type="button" mat-button  (click)="signOut()" id="logout"><i class="material-icons">power_settings_new</i></button>
+        </div>
+    </span>
+            <span matTooltip="Logout">
+        <div *ngIf="user">
+            
+            <button mat-icon-button type="button" mat-button (click)="signOutfacebook()" id="logout"><i class="material-icons">power_settings_new</i></button>
+        </div>
+    </span>
+           
+        <div *ngIf="googleuser">
+            
+            <button mat-icon-button type="button" mat-button (click)="signOutgoogle()" id="logout"><i class="material-icons">power_settings_new</i></button>
+        </div>
+    
+        </mat-toolbar>    
+        
+
+
+
+
+
+
+
+        <router-outlet>
+
+        </router-outlet>
+
+
+    </mat-sidenav-container>
+</body>

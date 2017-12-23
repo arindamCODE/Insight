@@ -1,0 +1,12 @@
+    <div *ngIf="final">
+        <div *ngFor="let finalresult of final;let i=index">
+            <ul class="list1">
+                <li [innerHTML]="finalresult[0].content">
+                    
+                </li>
+                <li>{{finalresult[0].fileName}}</li>  
+                <li>{{finalresult[0].filePath}}</li>         
+             </ul>
+        </div>
+    </div>
+    

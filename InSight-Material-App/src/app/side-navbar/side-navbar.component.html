@@ -1,0 +1,50 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#sidebar').toggleClass('active');
+        $('#sidebarCollapse').on('click', function() {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+</script>
+<div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a [routerLink]="['/dashboard/edit']">
+                    <i class="glyphicon glyphicon-upload"></i> Upload
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="glyphicon glyphicon-tag"></i> Recent Searches
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard/pre']">
+                    <i class="glyphicon glyphicon-envelope"></i> My Repository
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard/favourites']">
+                    <i class="glyphicon glyphicon-star"></i> Favourites
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard/settings']">
+                    <i class="glyphicon glyphicon-cog"></i> Settings
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+
+        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                      <i class="glyphicon glyphicon-tasks"></i>
+                      
+          </button>
+
+        <router-outlet></router-outlet>
+        <div>

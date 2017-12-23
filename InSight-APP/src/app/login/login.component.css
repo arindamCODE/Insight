@@ -1,0 +1,15 @@
+.together {
+    display: inline;
+}
+
+#logo {
+    padding-left: 55px;
+}
+
+.or {
+    padding-left: 85px;
+}
+
+.new {
+    background-image: url("../../assets/background.jpg");
+}

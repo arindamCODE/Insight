@@ -1,0 +1,23 @@
+<h2> Whom do you want to share the file with ? </h2>
+<!-- <app-pre-result (trialcontentIDevent)='fetchIDs($event)'></app-pre-result> -->
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input type="text" #input placeholder="Enter Recipient's Name" (keyup)='autofill_dropdown(input.value)'  aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      <!-- ask chandan sir how to put space in between the values -->
+      <!-- <mat-option *ngIf = "!check">
+         Not a registered User 
+      </mat-option> -->
+      <!-- <div *ngIf = "dropdown_usernames"> -->
+      <mat-option *ngFor="let option of dropdown_usernames" [value]="option.firstName">
+         <!-- + option.lastName"> -->
+          <img align="middle" style="height:15%; width:15%; margin-bottom:10px;"src="{{option.photoUrl}}"> {{ option.firstName }} {{option.lastName}} 
+      </mat-option>
+      <!-- </div> -->
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+<button mat-raised-button color="primary" (click)='getsharedwithIDandpost(input.value)'>Share</button>
+<button mat-raised-button color="warn" (click)='closedialogbox()'>Close</button>
+
+

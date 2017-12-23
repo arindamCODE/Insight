@@ -1,0 +1,294 @@
+<<<<<<< HEAD
+=======
+<!--<div class="container">
+  <div class="row" id="top-section"> 
+    <div class="col-xs-12 col-sm-offset-5">
+        <h2> Account Settings </h2>
+    </div> -->
+
+<form enctype="multipart/form-data" method="post" name="fileinfo">
+    <div class="fileUpload">
+        <div class="OnlyUpload">
+            <input #fileInput type="file" id="btnUpload" value="Upload Files" class="btn btn-info" multiple />
+            <!--(change)="fileChange($event)" -->
+            <button class="btn btn-info" (click)="upload(fileInput.files)">Change Photo</button>
+
+        </div>
+    </div>
+
+</form>
+
+<!-- <form enctype="multipart/form-data" method="post" name="fileinfo2">
+        <div class="fileUpload">
+            
+                <div class="OnlyUpload">  
+                    <input #fileInput type="file" id="btnUpload" value="Upload Files" class="btn btn-info" multiple  /> <!--(change)="fileChange($event)" -->
+<!-- <button class="btn btn-info" (click)="uploadimage(fileInput.value)">Change Photo</button>
+                </div>            
+        </div>
+    </form>  -->
+
+
+<!-- <div class="col-xs-5 col-sm-offset-5  "  onclick="performclick()" >
+        <a class="profile-pic"  >
+                      
+            <div class="profile-pic" style="background-image: url('https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png')" >
+                
+                <span class="glyphicon glyphicon-camera"><br>edit</span>
+                <span> Change Photo </span>
+                <p>Change image</p>
+                
+            </div>
+            <input type="file" id="theFile" />       
+           
+        </a>
+         <a href="#" onclick="$('#imgupload').trigger('click'); return false;">Edit photo </a> -->
+<!-- <input type="file" id="myFile"> -->
+
+<!--       
+    </div>   
+  </div>
+</div>  
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-default">        
+      </div>
+      <div class="col-xs-2 col-sm-offset-2"><b>Name </b></div>
+      <div class="col-xs-6">{{ first }} {{ last }} </div>
+      <div class="col-xs-2">
+          <button class="btn btn-primary" id="alertMe"  type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+              <i class="glyphicon glyphicon-edit"></i><span class="button-text"> Edit</span>
+          </button>
+      </div> -->
+<!-- 
+    <div class="row">
+        <div class="alert alert-block fade in" id="successAlert">   
+            <div class="col-xs-6 col-sm-offset-3">
+                <div class="collapse" id="collapse1">
+                    <div class="card card-block">
+                        <form>
+
+                            <div class="form-group" >
+                                <label for="firstname">First Name</label>    
+                                <input #firstname  type="text" class="form-control" name="firstname" placeholder="Enter FirstName" [(ngModel)]="first" />
+                                <label for="lastname">Last Name</label>    
+                                <input #lastname type="text" class="form-control" name="lastname" placeholder="Enter LastName" [(ngModel)]="last" />
+                          
+                          
+                          
+                          
+                            </div>
+
+                            <div class="form-group">
+                                <button [disabled]="loading" (click)="update(firstname.value,lastname.value)" class="btn btn-info">Save Changes</button>
+                                <img *ngIf="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA=="
+                                />
+                                <button class="btn btn-primary close" data-dismiss="alert">Cancel</button>
+                            </div> -->
+
+<!-- </form> 
+                    </div>end of card block -->
+<!-- </div>end of collapse -->
+<!-- </div>end of col -->
+<!-- </div>end of alert -->
+<!-- </div>end of row -->
+
+
+
+
+
+
+
+<body>
+>>>>>>> 5d3039bf56d5838bdd53bb0034df61ac3742b523
+    <mat-card class="example-card">
+        <a href="https://s3.ap-south-1.amazonaws.com/testinsight95/{{photoUrl}}" class="profile-pic">
+            <div class="profile-pic" id="fileUpload" [style.backgroundImage]=" 'url(https://s3.ap-south-1.amazonaws.com/testinsight95/' + photoUrl +' )' ">
+            </div>
+        </a>
+
+        <form enctype="multipart/form-data" method="post" name="fileinfo">
+<<<<<<< HEAD
+             <div class="fileUpload">
+                <button id="uploadbox" *ngIf="uploadBox" mat-raised-button md-mini-fab type="button" (click)=" fileToUpload.click();showMore();" >
+                <label for="fileToUpload"><mat-icon>Change Photo</mat-icon></label>
+                </button>
+                 <input #fileToUpload id="fileToUpload" type="file" style="display:none;">
+                    <div id="d3" *ngIf="d3Display">
+                        <button mat-raised-button id="save-button" (click)="upload(fileToUpload.files);showLess();refresh();" >Save</button>
+                    </div>  
+                     <span class="example-spacer"></span> 
+             </div>
+=======
+            <div class="fileUpload">
+
+                <!-- <div class="OnlyUpload">
+                           <input #fileInput type="file" id="btnUpload" value="Upload Files" class="btn btn-info" multiple />-->
+                <!--(change)="fileChange($event)" -->
+                <button id="uploadbox" *ngIf="uploadBox" mat-raised-button md-mini-fab type="button" (click)="fileToUpload.click();showMore();">
+                    <label for="fileToUpload"><md-icon>Change Photo</md-icon></label>
+                           </button>
+                <input #fileToUpload id="fileToUpload" type="file" style="display:none;">
+                <div id="d3" *ngIf="d3Display">
+                    <button mat-raised-button id="save-button" (click)="upload(fileToUpload.files);showLess()" routerLink="/dashboard/settings">Save</button>
+                </div>
+                <button mat-button (click)="openDialog()" id="changepassword">Change Password</button>
+                <!-- <div>
+                        <button mat-raised-button type="button" value="Save" onclick="showLess()" (click)="upload(fileToUpload)" routerLink="/dashboard/settings">
+                </div> -->
+                <span class="example-spacer"></span>
+
+            </div>
+            <!--end of formUpload-->
+
+
+>>>>>>> 5d3039bf56d5838bdd53bb0034df61ac3742b523
+        </form>
+
+        <!-- <mat-card-title class="name"> {{first}}</mat-card-title>
+        <mat-card-subtitle><a class="changepassword" href="#">Change Password</a></mat-card-subtitle>-->
+        <h2>{{first}}</h2>
+        <p class="pswd">Change Password</p>
+
+        <mat-card-content id="content">
+<<<<<<< HEAD
+            <form name = "details" class="formfields">
+    
+             <mat-form-field >
+                <label for='name'></label>
+                <input #nameBox='ngModel' (blur)="updateuser(nameBox.value)"  id='name' class = "form-control" matInput placeholder="User Name" name= "name"
+                 [(ngModel)]="user" />
+             </mat-form-field>
+        
+            <mat-form-field >
+                <input disabled #emailBox matInput placeholder="Email" value="{{email}}" >
+            </mat-form-field>
+        
+            <mat-form-field >
+                <label for='contact'></label>
+                <input #contactBox='ngModel' (blur)="updatecontact(contactBox.value)" id='contact' class="form-control" matInput placeholder="Contact Number" name="contact" [(ngModel)]="contactNo" >
+            </mat-form-field>
+        
+            <mat-form-field>
+                <input #dobBox='ngModel' (blur)="updatedob(dobBox.value)"  id='dob' class="form-control" matInput [matDatepicker]="picker" placeholder="Date of Birth" name="dob" [(ngModel)]="dob">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+                <!-- <div  *ngIf="updatedob(dobBox.value,dobBox.touched)"  >
+=======
+            <form name="details" class="formfields">
+
+                <mat-form-field>
+                    <label for='name'></label>
+                    <input #nameBox='ngModel' (blur)="updateuser(nameBox.value)" id='name' class="form-control" matInput placeholder="User Name" name="name" [(ngModel)]="user" />
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input disabled #emailBox matInput placeholder="Email" value="{{email}}">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <label for='contact'></label>
+                    <input #contactBox='ngModel' (blur)="updatecontact(contactBox.value)" id='contact' class="form-control" matInput placeholder="Contact Number" name="contact" [(ngModel)]="contactNo">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input #dobBox='ngModel' (blur)="updatedob(dobBox.value)" id='dob' class="form-control" matInput [matDatepicker]="picker" placeholder="Date of Birth" name="dob" [(ngModel)]="dob">
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                    <!-- <div  *ngIf="updatedob(dobBox.value,dobBox.touched)"  >
+>>>>>>> 5d3039bf56d5838bdd53bb0034df61ac3742b523
+                    
+                </div> -->
+                </mat-form-field>
+
+            </form>
+        </mat-card-content>
+    </mat-card>
+<<<<<<< HEAD
+ 
+=======
+</body>
+
+
+>>>>>>> 5d3039bf56d5838bdd53bb0034df61ac3742b523
+
+
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+            console.log("testing");
+           var button = document.getElementById("uploadbox");
+            var d3 = document.getElementById("d3");
+            function showMore() {
+                button.style.display="none";
+                d3.style.display="block";
+            }
+
+            function showLess() {
+                button.style.display="inline-block";
+                d3.style.display="none";
+            }
+    </script>        -->
+
+
+
+
+
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"> -->
+
+<!-- // $("#profileImage").click(function(e) {
+    //     $("#imageUpload").click();
+    // });
+    
+    // function fasterPreview( uploader ) {
+    //     if ( uploader.files && uploader.files[0] ){
+    //           $('#profileImage').attr('src', 
+    //              window.URL.createObjectURL(uploader.files[0]) );
+    //     }
+    // }
+    
+    // $("#imageUpload").change(function(){
+    //     fasterPreview( this );
+    // });
+
+    // $("#image").change(function(){
+    //     readURL(this);
+    //     console.log("test");
+    //     //other uploading proccess [server side by ajax and form-data ]
+    // });
+
+    //     function readURL(input) {
+    //     if (input.files && input.files[0]) {
+    //         var reader = new FileReader();
+            
+    //         reader.onload = function (e) {
+    //             $('#profile').attr('src', e.target.result);
+    //         }
+            
+    //         reader.readAsDataURL(input.files[0]);
+    //     }
+    // }
+
+    </script> -->
+
+<!-- 
+    <input type="text" class="form-control" id="name"
+    required
+    [(ngModel)]="model.name" name="name"
+    #test>
+   <br>TODO: remove this: {{test.className}} -->
+
+
+<!-- <input type="text" class="form-control" id="test"
+   required
+   [(ngModel)]="model.test" name="test"
+   #spy>
+   <br>TODO: remove this: {{spy.className}}
+    -->

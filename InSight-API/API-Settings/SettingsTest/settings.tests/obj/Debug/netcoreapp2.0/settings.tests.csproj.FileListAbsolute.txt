@@ -1,0 +1,16 @@
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\settings.tests.deps.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\settings.tests.runtimeconfig.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\settings.tests.runtimeconfig.dev.json
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\settings.tests.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\settings.tests.pdb
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\Editor-API(Settings).dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\Editor-API(Settings).pdb
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\bin\Debug\netcoreapp2.0\Editor-API(Settings).dll.config
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\obj\Debug\netcoreapp2.0\settings.tests.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\obj\Debug\netcoreapp2.0\settings.tests.AssemblyInfoInputs.cache
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\obj\Debug\netcoreapp2.0\settings.tests.AssemblyInfo.cs
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\obj\Debug\netcoreapp2.0\settings.tests.dll
+c:\Users\Administrator\Desktop\Insight\InSight-API\API-Settings\SettingsTest\settings.tests\obj\Debug\netcoreapp2.0\settings.tests.pdb

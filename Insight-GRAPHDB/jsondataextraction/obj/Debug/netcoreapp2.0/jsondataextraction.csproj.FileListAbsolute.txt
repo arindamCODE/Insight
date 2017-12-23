@@ -1,0 +1,10 @@
+C:\projectworks\jsondataextraction\bin\Debug\netcoreapp2.0\jsondataextraction.deps.json
+C:\projectworks\jsondataextraction\bin\Debug\netcoreapp2.0\jsondataextraction.runtimeconfig.json
+C:\projectworks\jsondataextraction\bin\Debug\netcoreapp2.0\jsondataextraction.runtimeconfig.dev.json
+C:\projectworks\jsondataextraction\bin\Debug\netcoreapp2.0\jsondataextraction.dll
+C:\projectworks\jsondataextraction\bin\Debug\netcoreapp2.0\jsondataextraction.pdb
+C:\projectworks\jsondataextraction\obj\Debug\netcoreapp2.0\jsondataextraction.csproj.CoreCompileInputs.cache
+C:\projectworks\jsondataextraction\obj\Debug\netcoreapp2.0\jsondataextraction.AssemblyInfoInputs.cache
+C:\projectworks\jsondataextraction\obj\Debug\netcoreapp2.0\jsondataextraction.AssemblyInfo.cs
+C:\projectworks\jsondataextraction\obj\Debug\netcoreapp2.0\jsondataextraction.dll
+C:\projectworks\jsondataextraction\obj\Debug\netcoreapp2.0\jsondataextraction.pdb

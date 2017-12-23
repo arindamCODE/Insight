@@ -1,0 +1,8 @@
+version: '2'
+services:
+
+  javascript:
+    image: angular-app
+    build: .
+    ports:
+      - "80:8080"

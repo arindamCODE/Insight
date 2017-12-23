@@ -1,0 +1,10 @@
+C:\projectworks\queryingraph\bin\Debug\netcoreapp2.0\queryingraph.deps.json
+C:\projectworks\queryingraph\bin\Debug\netcoreapp2.0\queryingraph.runtimeconfig.json
+C:\projectworks\queryingraph\bin\Debug\netcoreapp2.0\queryingraph.runtimeconfig.dev.json
+C:\projectworks\queryingraph\bin\Debug\netcoreapp2.0\queryingraph.dll
+C:\projectworks\queryingraph\bin\Debug\netcoreapp2.0\queryingraph.pdb
+C:\projectworks\queryingraph\obj\Debug\netcoreapp2.0\queryingraph.csproj.CoreCompileInputs.cache
+C:\projectworks\queryingraph\obj\Debug\netcoreapp2.0\queryingraph.AssemblyInfoInputs.cache
+C:\projectworks\queryingraph\obj\Debug\netcoreapp2.0\queryingraph.AssemblyInfo.cs
+C:\projectworks\queryingraph\obj\Debug\netcoreapp2.0\queryingraph.dll
+C:\projectworks\queryingraph\obj\Debug\netcoreapp2.0\queryingraph.pdb

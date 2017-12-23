@@ -1,0 +1,93 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#sidebar').toggleClass('active');
+        $('#sidebarCollapse').on('click', function() {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+</script>
+
+
+<body>
+    <div class="container">
+        <div class="panel panel-primary">
+
+            <div class="panel panel-primary" *ngFor="let con of content1">
+                <div class="panel-heading"></div>
+                <a href="" routerLink="/dashboard/view" (click)="view(con)">
+
+                    <div class="panel-body" [innerHTML]="addDots(con)">
+                    </div>
+
+                    <div class="panel-body" [innerHTML]="showfiles(con)">
+                        <!--<button class="btn btn-primary" (click)="showfiles(con)">Show attached files</button>
+                        
+                        <div *ngIf="filedetails">
+                            <div  *ngFor="let file of filedetails">
+                                <p>{{file.fileName}}</p>
+                            </div>
+                        </div>-->
+                    </div>
+                    
+                </a>
+                <div class="panel-body">
+                    <button class="btn btn-primary btn-lg" (click)="edit(con)" routerLink='/dashboard/ed'>Edit</button>
+                    <button class="btn btn-primary btn-lg" routerLink='/dashboard/pre' data-toggle="modal" data-target="#MyModal" (click)="preDelete(con)">Delete</button>
+
+                    <div class="panel-body" *ngIf="con.isFavourites === false">
+                        <a><i class="glyphicon glyphicon-star-empty" data-toggle="modal" data-target="#MyModal1" (click)="change(con)"></i></a>
+                    </div>
+
+                    <div class="panel-body" *ngIf="con.isFavourites === true">
+                        <a><i class="glyphicon glyphicon-star" data-toggle="modal" data-target="#MyModal2" (click)="change1(con)"></i></a>
+                    </div>
+                </div>
+
+                <div id="MyModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">Are you sure you want to delete?</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" (click)="delete()">Confirm</button>
+                                <button class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="MyModal1" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">The Content has been successfully added to The Favorites</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary btn-lg" data-dismiss="modal" (click)="reload()">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="MyModal2" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">The Content has been successfully removed from The Favorites</div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary btn-lg" data-dismiss="modal" (click)="reload()">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>

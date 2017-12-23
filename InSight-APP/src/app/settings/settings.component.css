@@ -1,0 +1,189 @@
+/* #dp
+{
+    width: 120px;
+    height: 120px;
+    margin-bottom:20px; 
+    margin-left: 40px;
+   
+}
+
+/* img-circle
+{
+    cursor: pointer;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    margin-bottom: 20px;
+}
+
+.image
+{
+    opacity: 1;
+    display: block; 
+    height: auto;
+    transition: .05s ease;
+    backface-visibility: hidden; 
+    position: relative;
+}
+
+.image:hover .image {
+    opacity: 0.3;
+  }
+
+.image:hover .middle {
+    opacity: 1;
+}
+
+.middle {
+    transition: .05s ease;
+    opacity: 0; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    position: absolute;
+} */
+  
+/* .text {
+    color: #0C0C0C;
+    font-size: 16px;
+   
+  }
+
+
+  .profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.profile-pic span {
+    display: inline-block;
+    padding-top: 4.5em;
+    padding-bottom: 4.5em;
+} 
+
+#top-section
+{
+    font-size:20px;
+}
+
+#theFile
+{
+   margin-top:5px; 
+   margin-left: 35px;
+}
+
+#email
+{
+    margin-left: 10px;
+}
+#alertMe
+{
+    margin-left: 8px;
+}
+
+@media(min-width:375px) and (max-width:425px)
+{
+    .button-text{
+        display: none;
+    }
+    .profile-pic
+    {
+        margin-bottom: 10px;
+    }
+    #top-section
+    {
+        margin-left:20px;
+    }
+}
+
+@media(min-width:1px) and (max-width:375px)
+{
+    #top-section
+    {
+        font-size: 3px;
+    }
+} */ 
+
+.example-card{
+    width: 40%;
+    margin-left: 30%;
+    margin-top:1% ;
+    margin-bottom:1%;
+    padding-top: 30px;
+ }
+ #dp{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+ }
+ .mat-form-field{
+    width: 70%;
+    margin-left: 75px;
+ }
+ .profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    vertical-align: middle;
+    text-align: center;
+    color: transparent;
+    transition: all .3s ease;
+    text-decoration: none;
+    margin-left: 35%;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+}
+#btnupload{
+ 
+}
+.profile-pic:hover {
+    background-color: rgba(0,0,0,.5);
+    z-index: 10000;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.profile-pic span {
+    display: inline-block;
+    padding-top: 45%;
+    
+}
+ @media only screen and (max-width:500px) {
+    .example-card[_ngcontent-c12]{
+        
+        width:85%;
+        margin-left: 10px;
+    }
+    #dp{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-left: 35%;
+     }
+     .mat-form-field[_ngcontent-c12]{
+         margin-left: 50px;
+     }
+    
+}

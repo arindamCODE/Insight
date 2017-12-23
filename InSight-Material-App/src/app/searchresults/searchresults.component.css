@@ -1,0 +1,46 @@
+.list1 li{
+    list-style: none;
+    display: inline;
+ }
+
+
+#searchcards {
+    
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 90%;
+}
+.notfinal{
+    font-size: 40px;
+    top:20px;
+    right:20px;
+}
+
+#searchresult{
+    margin-top:80px;
+}
+.loading-indicator {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* Transparent Overlay */
+  .loading-indicator:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0,0,0,0.3); */
+  }
+  

@@ -1,0 +1,10 @@
+C:\projreference\obj\Debug\netcoreapp2.0\projreference.csproj.CoreCompileInputs.cache
+C:\projreference\obj\Debug\netcoreapp2.0\projreference.AssemblyInfoInputs.cache
+C:\projreference\obj\Debug\netcoreapp2.0\projreference.AssemblyInfo.cs
+C:\projreference\bin\Debug\netcoreapp2.0\projreference.deps.json
+C:\projreference\bin\Debug\netcoreapp2.0\projreference.runtimeconfig.json
+C:\projreference\bin\Debug\netcoreapp2.0\projreference.runtimeconfig.dev.json
+C:\projreference\bin\Debug\netcoreapp2.0\projreference.dll
+C:\projreference\bin\Debug\netcoreapp2.0\projreference.pdb
+C:\projreference\obj\Debug\netcoreapp2.0\projreference.dll
+C:\projreference\obj\Debug\netcoreapp2.0\projreference.pdb

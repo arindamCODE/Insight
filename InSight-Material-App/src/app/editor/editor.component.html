@@ -1,0 +1,45 @@
+<!-- Component to Provide the user with the Rich Text Editor and also the File Uploading feature -->
+
+<body>
+    <div class="editor-card">
+        <!-- Card containing the Rich text Editor -->
+        <div class="card-body">
+            <quill-editor [(ngModel)]="editorContent" required></quill-editor>
+        </div>
+        <!-- Card to capture the MetaTags inserted along with the Content -->
+        <mat-form-field class="card-body-tag">
+            <input #Tag id="text" matInput placeholder="Please provide some tags" required [(ngModel)]="tags">
+        </mat-form-field>
+        <div class="panel-body">
+            <!--only for uploading files-->
+            <form enctype="multipart/form-data" method="post" name="fileinfo">
+                <div class="fileUpload">
+                    <!-- <div class="OnlyUpload">
+                               <input #fileInput type="file" id="btnUpload" value="Upload Files" class="btn btn-info" multiple />-->
+                    <!--(change)="fileChange($event)" -->
+                    <button id="uploadbox" mat-raised-button md-mini-fab type="button" (click)="fileInput.click()"> Upload Files
+                        <!-- <label for="fileToUpload"><md-icon>Upload Files</md-icon></label> -->
+                    </button>
+                    <input #fileInput id="fileToUpload" type="file" style="display:none;" multiple>
+                    <!--<input id="fileToUpload" type="file" style="display:none;">-->
+                    <!--<a href="javascript:void(0)" (click)="file.click()" >
+                                           <button mat-raised-button color="primary">
+                                           CLICK TO BROWSE
+                                           </button>
+                                         </a>-->
+                    <span class="example-spacer"></span>
+                    <!-- Radio buttons to provide the contents with the Privacy -->
+                    <mat-radio-group>
+                        <mat-radio-button #box1 value="1" (click)="change()">Private</mat-radio-button>
+                        <mat-radio-button #box2 class="box2" value="2" (click)="change1()" checked="checked">Public</mat-radio-button>
+                    </mat-radio-group>
+
+                </div>
+            </form>
+        </div>
+        <!--Button for single upload functionality-->
+        <div class="MainUploader">
+            <button mat-raised-button id="save-button" (click)="MainUploader(fileInput.files,editorContent, Tag.value)">Upload Data</button>
+        </div>
+    </div>
+</body>

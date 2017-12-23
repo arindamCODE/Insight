@@ -1,0 +1,40 @@
+   <!-- <div *ngIf="final">
+        <div *ngFor="let finalresult of final;let i=index">
+            <ul class="list1">
+                <li [innerHTML]="finalresult[i].content">
+                    
+                </li>
+                <li>{{finalresult[i].fileName}}</li>
+                <a href="https://s3.ap-south-1.amazonaws.com/testinsight95/{{finalresult[i].fileName}}">{{finalresult[i].filePath}}</a>
+            </ul>
+        </div>
+    </div>-->
+    
+    <div class="container" id="searchresult">
+            <div *ngIf="test" class="loading-indicator"><mat-spinner mat-diameter="1px"></mat-spinner></div>   
+        <div *ngIf="final">  
+                
+           <div *ngIf="final.length===0"class="notfinal">No Results found</div>
+            <ul *ngFor="let finalresult of final;let i=index">
+                
+                
+                        <ul class="list1">
+                                <mat-card class="container" id="searchcards">
+                                        <mat-card-content>
+                        <div *ngIf="finalresult[0].content">    <li [innerHTML]="finalresult[0].content">
+                                
+                            </li></div>
+                         <div *ngIf="finalresult[0].fileName">   <li> <h3>{{finalresult[0].fileName}}</h3></li><br></div>
+                        <div *ngIf="finalresult[0].filePath"> <span matTooltip="View the file"><a href="https://s3.ap-south-1.amazonaws.com/testinsight95/{{finalresult[0].fileName}}">https://s3.ap-south-1.amazonaws.com/testinsight95/{{finalresult[0].fileName}}</a></span></div>
+                        </mat-card-content>
+                    </mat-card>
+                        </ul> 
+                  
+                
+            </ul>    
+            
+       </div>
+    
+</div>
+
+     

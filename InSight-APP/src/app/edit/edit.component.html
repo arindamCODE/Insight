@@ -1,0 +1,15 @@
+<body>
+    <div class="panel panel-primary">
+        <div class="panel-heading"></div>
+        <div class="panel-body">
+            <quill-editor [(ngModel)]="content.content"></quill-editor>
+        </div>
+        <div class="panel-body">
+            <input [(ngModel)]="content.metaTags" #Tag type="text" placeholder="Please provide some tags" required>
+        </div>
+        <div class="panel-body">
+            <button class="btn btn-primary btn-lg" (click)='update(content.contentId, content.userId, content.content, Tag.value, content.isPrivate, content.isGraphCreated, content.isFavourites, content.createdBy, content.createdOn, content.isDelete, content.modifiedOn)'
+                routerLink='/dashboard/re2'>Save</button>
+        </div>
+    </div>
+</body>

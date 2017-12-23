@@ -1,0 +1,157 @@
+.MainUploader {
+    width: 40%;
+}
+
+input {
+    width: 98.8%;
+    height: 30px;
+    padding-left: 1%;
+    font-style: italic;
+}
+
+#uploadbox {
+    width: 30%;
+    background-color: #212121;
+    color: white;
+}
+
+.panel-body {
+    width: 98.8%;
+    height: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#text {
+    font-style: italic;
+}
+
+.editor-card {
+    margin: 5%;
+}
+
+.card-body-tag {
+    width: 99.80%;
+    margin-top: 1%;
+}
+
+.card-body-save {
+    margin-top: 2%;
+}
+
+.input {
+    height: 40px;
+}
+
+@media only screen and (max-width:500px) {
+    .card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+body {
+    display: flex;
+}
+
+.file_input_div {
+    margin: auto;
+    width: 250px;
+    height: 40px;
+}
+
+.file_input {
+    float: left;
+}
+
+#file_input_text_div {
+    width: 200px;
+    margin-top: -8px;
+    margin-left: 5px;
+}
+
+.none {
+    display: none;
+}
+
+.mat-radio-button~.mat-radio-button {
+    padding-right: 10%;
+}
+
+.example-spacer {
+    padding: 15%;
+}
+
+.box2 {
+    margin-left: 10%;
+}
+
+#save-button {
+    margin-top: 2%;
+    width: 29.5%;
+    background-color: #212121;
+    color: white;
+}
+
+.card-body {
+    margin-top: 30px;
+}
+
+@media (min-width: 300px) and (max-width:768px) {
+    .mat-radio-button~.mat-radio-button {
+        padding-right: 1%;
+    }
+    .box2 {
+        margin-left: 1%;
+    }
+    .example-spacer {
+        padding: 2%;
+    }
+}
+
+#download-button {
+    position: relative;
+    width: 15%;
+    background-color: #212121;
+    color: white;
+    float: right;
+}
+
+#delete-button {
+    position: relative;
+    margin-right: 2%;
+    width: 10%;
+    background-color: #212121;
+    color: white;
+    float: right;
+}
+
+#link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#editbox {
+    position: relative;
+    margin-right: 2%;
+    width: 10%;
+    background-color: #212121;
+    color: white;
+    float: right;
+}
+
+#editsave-button {
+    position: relative;
+    margin-right: 2%;
+    width: 10%;
+    background-color: #212121;
+    color: white;
+    float: right;
+}
+
+#actions {
+    margin-bottom: 3%;
+    margin-right: 2%;
+}

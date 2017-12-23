@@ -1,0 +1,78 @@
+<!-- Component to show the Content to further edit the same -->
+
+<body>
+    <div class="editor-card">
+        <!-- Card containing the Text-Editor -->
+        <div class="card-body">
+            <!-- Binding the content of the object to edit further -->
+            <quill-editor [(ngModel)]="content.content"></quill-editor>
+        </div>
+        <!-- Card containing the Text-Editor -->
+        <mat-form-field class="card-body-tag">
+            <!-- Binding the tags of the object to edit further -->
+            <input [(ngModel)]="content.metaTags" #Tag id="text" matInput placeholder="Please provide some tags" required>
+        </mat-form-field>
+        <div class="panel-body">
+            <form enctype="multipart/form-data" method="post" name="fileinfo">
+                <div class="fileUpload">
+                    <!--button to add more files to the current content-->
+                    <button id="uploadbox" mat-raised-button md-mini-fab type="button" onclick="document.getElementById('fileToUpload').click()">
+                                       <label for="fileToUpload"><md-icon>Upload Files</md-icon></label>
+                               </button>
+                    <input #fileInput id="fileToUpload" type="file" style="display:none;" multiple>
+                    <!-- Radio buttons to define the Privacy of the Contents and files uploaded -->
+                    <mat-radio-group>
+                        <mat-radio-button value="1" (click)="change()">Private</mat-radio-button>
+                        <mat-radio-button class="box2" value="2" (click)="change1()">Public</mat-radio-button>
+                    </mat-radio-group>
+
+
+
+                    <div class="MainUploader">
+                        <!--Button for single upload functionality by posting both the edited content and the added files-->
+                        <button mat-raised-button id="save-button" (click)="MainUploader(fileInput.files,content.contentId, content.userId, content.content, Tag.value, content.isPrivate, content.isGraphCreated, content.isFavourites, content.createdBy, content.createdOn, content.isDelete, content.modifiedOn)"
+                            (click)="openDialog()">Update</button>
+
+                        <!--button to display attached files-->
+                        <button mat-raised-button id="file-button" (click)="showFileDetails(content.contentId)">Display</button>
+                    </div>
+
+                    <!--Card to display files which are not deleted and are not null-->
+                    <mat-card class="showfiles" id="favouriteCards" *ngIf=fileDetailsNotDeleted>
+                        <mat-card-header>
+                            <mat-card-title>
+                            </mat-card-title>
+                        </mat-card-header>
+
+                        <!--Displays all the files that are uploaded with the same content by running the loop-->
+                        <mat-card-content *ngFor="let file of fileDetailsNotNull">
+
+                            <a id="link" href="{{file.filePath}}" target="_blank">{{file.fileName}}</a>
+
+                            <mat-card-actions id="actions">
+
+                                <button mat-raised-button id="download-button" (click)="DownloadFile(file.fileName)" (click)="openDialogDownloadFile()">Download</button>
+                                <button mat-raised-button id="delete-button" (click)="DeleteFile(file.fileId,file.contentId,file.userId,file.filePath,file.fileName,file.fileType,file.isPrivate,file.isGraphCreated,file.isFavourites,file.createdBy,file.createdOn,file.modifiedOn)" (click)="openDialogDeleteFile()">Delete</button>
+                                <form enctype="multipart/form-data" name="fileEdit">
+                                    <div class="fileEditClass">
+                                        <button id="editbox" mat-raised-button md-mini-fab type="button" onclick="document.getElementById('fileToEdit').click()">
+                                            <label for="fileToEdit"><md-icon>Upload Edited File</md-icon></label>
+                                        </button>
+                                        <input #fileEdit id="fileToEdit" type="file" style="display:none;">
+                                    </div>
+                                </form>
+                                <button mat-raised-button id="editsave-button" (click)="SaveFile(fileEdit.files,file.fileId,file.contentId,file.isPrivate,file.isFavourites,file.isDelete,file.isGraphCreated,file.createdOn,file.modifiedOn)" (click)="openDialogSaveEditedFile()">Save</button>
+                            </mat-card-actions>
+                        </mat-card-content>
+                        <!--end of mat-card content-->
+                    </mat-card>
+                    <!--end of mat-card that shows file details-->
+                </div>
+                <!--end of fileupload-->
+            </form>
+            <!--end of form fileinfo-->
+        </div>
+        <!-- end of panel body-->
+    </div>
+    <!--end of editor card-->
+</body>
